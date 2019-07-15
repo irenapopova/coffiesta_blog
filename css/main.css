@@ -176,6 +176,50 @@ body {
 
 }
 
+.contact_form {
+  padding-bottom: 0.5rem;
+  display: block;
+  position: relative;
+
+  background: #ffffff;
+  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: box-shadow 0.16s;
+}
+
+.contact_form__content button {
+  display: block;
+  margin-top: 0.5rem;
+
+  padding: 0.1rem;
+
+  font-family: 'Pacifico', cursive;
+  border: solid 2px whitesmoke;
+  color: whitesmoke;
+  background: #924408;
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 1rem;
+
+  transition: border-color 0.16s;
+}
+
+.contact_form .contact_form__content {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  right: 300px;
+}
+
+.contact_form__content > * {
+  display: block;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+
 .post {
   max-width: 500px;
 
