@@ -16,11 +16,20 @@
     <header class="header">
 
         <a class="header__logo logo" href="/"></a>
+
         <div class="header__search">
-            <a href="/">
-                <i class="fa fa-search"></i>
-            </a>
+            <section class="search"> 
+               
+                <form class="search__form" action="/">
+                    <input class="search__query" type="text" placeholder="Search">
+                    <button class="search__submit" type="submit">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </form>
+
+            </section>
         </div>
+
         <div class="header__socials">
             <ul class="socials">
                 <li>
@@ -51,12 +60,15 @@
             <label for="hamburger"><i class="fa fa-bars"></i></label>
             <ul class="header__menu__list">
                 <li>
+                        <i class="fa fa-home "></i>
                     <a class="header__menu__item" href="index.html"> Home </a>
                 </li>
                 <li>
+                        <i class="fa fa-user "></i>
                     <a class="header__menu__item" href="about.html"> About </a>
                 </li>
                 <li>
+                        <i class="fa fa-envelope "></i>
                     <a class="header__menu__item" href="contacts.html"> Contacts </a>
                 </li>
             </ul>
@@ -65,30 +77,23 @@
 
     <div class="content">
         <main class="main">
-            <h1 class="main__title">Resent posts</h1>
+            <h1 class="main__title">About me</h1>
             <section class="posts">
                 <article class="post">
                     <div class="post__cover">
                         <img src="images/coffee-beans.jpg" alt="" />
                     </div>
                     <div class="post__content">
-                        <h2 class="post__title">The Sory of a Coffee Bean</h2>
+                        <h2 class="post__title">About me...</h2>
                         <div class="post__tooltip">
-                            <h5 class="post__date">Jul 3, 2019</h5>
+                            
                             <h5 class="post__comments">
-                                <i class="fa fa-comment"></i>
-                                <span>17</span>
-                            </h5>
+                                
+                        
                         </div>
                         <p class="post__description">
-                            I got the idea to have a series of bags from the fashion and
-                            beer world. An apparel designer will often pick one fabric and
-                            make a series of silhouettes, or they might pick one silhouette
-                            and make it with a handful of different fabrics. In a similar
-                            way, a brewery will release a different design with each of
-                            their styles of beer. I wanted to do the same thing with coffee
-                            bags. Essentially, I wanted to create a collection that would
-                            look really good displayed together as a set.
+                                I have successfully transferred my passion for foreign languages to programming languages. Now I wish to fully devote myself to a Full-Stack Developer job. My main professional goal is to find a job that will give me an opportunity to deepen and improve previously acquired programming skills, engage in interesting and creative projects and raise my qualifications. My current focus is on boosting my React knowledge. I am a Full-Stack (MERN) Developer - JavaScript, ES6, Node JS, React JS, Express JS, MongoDB, HTML5 & CSS/SASS.
+                                I am interested in gaining solid knowledge in React, Mongo DB, Docker. Jasmine,
                         </p>
                     </div>
                 </article>
@@ -154,17 +159,17 @@
                 <section class="comments">
                     <h2 class="comments__title">Comments</h2>
                     <div class="comment">
-                        <img class="comment__avatar" src="images/commentators/avatar-1.png" alt="John Smith" />
+                        <img class="comment__avatar" src="images/commentators/avatar2.png" alt="Ron Netz" />
                         <h3 class="comment__name">Ron Netz</h3>
                         <p class="comment__content">Man I am a coffee enthusiast too!</p>
                     </div>
                     <div class="comment">
-                        <img class="comment__avatar" src="images/commentators/avatar-2.png" alt="John Smith" />
+                        <img class="comment__avatar" src="images/commentators/avatar5.png" alt="Alice Wise" />
                         <h3 class="comment__name">Alice Wise</h3>
                         <p class="comment__content">That coffee tea is a cool thing :)</p>
                     </div>
                     <div class="comment">
-                        <img class="comment__avatar" src="images/commentators/avatar-3.png" alt="John Smith" />
+                        <img class="comment__avatar" src="images/commentators/avatar4.png" alt="Clara Sanz" />
                         <h3 class="comment__name">Clara Sanz</h3>
                         <p class="comment__content">I love design of everything connected with coffee! </p>
                     </div>
@@ -177,7 +182,17 @@
         <span class="footer__logo logo"></span>
         <section class="footer__contacts">
             <ul>
-                <li>
+              <li>
+               <a href="impressum.html">
+                 <i class="fa fa-balance-scale "></i>
+                      <span>
+                        Impressum
+                       </span>
+                      </a>
+                  </li>
+               
+
+             <li>
                     <a href="mailto:irenejpopova6@gmail.com">
                         <i class="fa fa-envelope"></i>
                         <span>
@@ -185,6 +200,7 @@
                         </span>
                     </a>
                 </li>
+
                 <li>
                     <a href="https://www.linkedin.com/in/irena-popova/">
                         <i class="fab fa-linkedin"></i>
@@ -193,6 +209,7 @@
                         </span>
                     </a>
                 </li>
+
                 <li>
                     <a href="https://gmail.com/irenejpopova6@gmail.com">
                         <i class="fab fa-telegram-plane"></i>
